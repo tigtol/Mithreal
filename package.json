@@ -1,0 +1,26 @@
+{
+    "name": "mithreal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --config dev.config.js",
+        "startinit": "webpack --mode development -d source-map --entry ./src/index.js --output-path dist --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "gray-matter": "^4.0.3",
+        "highlight.js": "^11.2.0",
+        "marked": "^3.0.2",
+        "mathjax": "^3.2.0",
+        "mithril": "^2.0.4",
+        "slugify": "^1.6.0",
+        "yaml-front-matter": "^4.1.1"
+    },
+    "devDependencies": {
+        "webpack": "^5.51.1",
+        "webpack-cli": "^4.8.0"
+    }
+}
